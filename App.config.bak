@@ -3,14 +3,12 @@
   <configSections>
   </configSections>
   <connectionStrings>
-    <!--<add name="Restaurant.Properties.Settings.RESERVE" connectionString="Data Source=192.168.36.31\SQLEXPRESS;Initial Catalog=RESERVE;User ID=sa;Password=6419"
-      providerName="System.Data.SqlClient" />-->
   </connectionStrings>
   <appSettings>
-    <add key="RESERVE_Test" value="Data Source=192.168.36.31\SQLEXPRESS;Initial Catalog=RESERVE;User ID=sa;Password=6419" />
-    <add key="RESERVE_Formal" value="Data Source=portal-sql.yuema.com.tw;Initial Catalog=RESERVE;User ID=153sa;Password=lcpc487529" />
-	<add key="RESERVE_Formal" value="Data Source=portal-sql.yuema.com.tw;Initial Catalog=StoneaxAccessControlWeb;User ID=153sa;Password=lcpc487529" />
-    <add key="Log" value="Data Source=192.168.37.21\SQLEXPRESS;Initial Catalog=SqlCmdLogs;User ID=sa;Password=6419" />
+    <add key="RESERVE_Test" value="Data Source=;Initial Catalog=;User ID=sa;Password=" />
+    <add key="RESERVE_Formal" value="Data Source=;Initial Catalog=;User ID=sa;Password=" />
+	<add key="RESERVE_Formal" value="Data Source=;Initial Catalog=S;User ID=153sa;Password=" />
+    <add key="Log" value="Data Source=;Initial Catalog=;User ID=sa;Password=" />
     <add key="ClientSettingsProvider.ServiceUri" value="" />
   </appSettings>
   <startup>
